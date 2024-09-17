@@ -34,6 +34,8 @@ def connect_and_query():
             # Obtener los resultados
             records = cursor.fetchall()
             
+            print('Otro resultados')
+            
             return records 
             
             # query2 = "SELECT COUNT(*) AS Total FROM auditTrail"
